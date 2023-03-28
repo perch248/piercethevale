@@ -1,0 +1,8 @@
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://perch248.github.io/piercethevale/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK
