@@ -143,7 +143,7 @@ body .llms-loop-item-content .llms-progress-bar .progress-bar-complete {border-r
 .llms-student-dashboard .llms-sd-header .llms-sd-item.sl_profile>a:before {content: "";}
 .llms-student-dashboard .llms-my-orders .orders-table {font-size: .85em;}
 .llms-student-dashboard .llms-my-orders .orders-table thead td {background: #f9f9f9;}
-.llms-student-dashboard .llms-my-orders .orders-table tbody tr:nth-child(even) td {background: 0 0;}
+.llms-student-dashboard .llms-my-orders .orders-table tbody tr:nth-child(2n) td {background: 0 0;}
 .llms-student-dashboard .llms-my-orders .orders-table td:first-child, .llms-student-dashboard .llms-my-orders .orders-table th:first-child {width: 100%;}
 .llms-student-dashboard .llms-my-orders .orders-table td:first-child a, .llms-student-dashboard .llms-my-orders .orders-table th:first-child a {vertical-align: middle;}
 @media (min-width:769px) {.llms-student-dashboard .llms-my-orders .orders-table td:first-child, .llms-student-dashboard .llms-my-orders .orders-table th:first-child {width: 20%;}}

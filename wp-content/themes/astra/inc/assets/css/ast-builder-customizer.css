@@ -164,7 +164,6 @@
 .ahfb-header-builder-is-active #customize-theme-controls #sub-accordion-section-section-header-builder.ahfb-header-builder-active.ahfb-builder-hide, .ahfb-header-builder-is-active .preview-only.collapsed #customize-theme-controls #sub-accordion-section-section-header-builder.ahfb-header-builder-active.ahfb-builder-hide, .ahfb-footer-builder-is-active .in-sub-panel #customize-theme-controls #sub-accordion-section-section-footer-builder.ahfb-footer-builder-active.ahfb-builder-hide {transform: translateY(100%);overflow: visible;}
 li#customize-control-astra-settings-header-desktop-items, li#customize-control-astra-settings-header-mobile-items, li#customize-control-astra-settings-footer-desktop-items {transition: all .3s;background: #eee;border-top: 1px solid #ddd;}
 .components-popover__content .ahfb-popover-builder-list .ahfb-radio-container-control {display: grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 5px;width: 300px;max-height: 340px;}
-.ahfb-popover-builder-list {padding: 0 5px;}
 .ahfb-popover-builder-list .ahfb-radio-container-control .components-button.is-tertiary {font-size: 12px;margin: 0;display: grid;text-transform: capitalize;}
 .ahfb-builder-areas.has-center-items .ahfb-builder-add-item.center-on-right {right: 50%;}
 .ahfb-builder-areas.has-center-items .ahfb-builder-add-item.center-on-left {left: 50%;}
@@ -246,7 +245,7 @@ li#customize-control-astra-settings-header-desktop-items, li#customize-control-a
 .customize-control-ast-language-selector span.ahfb-sorter-title {padding-left: 15px;}
 .ahfb-sorter-item-panel-header .ahfb-sorter-visiblity {border-radius: 0;height: 41px;border-right: 1px solid #a0aec0;}
 .ahfb-sorter-item-panel-header .ahfb-sorter-item-expand, .ahfb-sorter-item-panel-header .ahfb-sorter-item-remove {border-radius: 0;position: relative;height: 38px;border-left: 0;}
-.ahfb-sorter-item-panel-header .ahfb-sorter-item-expand, .ahfb-sorter-item-panel-header .ahfb-sorter-item-remove {color: #4b5563;box-shadow: none;}
+.ahfb-sorter-item-panel-header .ahfb-sorter-item-expand, .ahfb-sorter-item-panel-header .ahfb-sorter-item-remove {color: #4b5563 !important;background: none !important;box-shadow: none !important;}
 .ahfb-sorter-item-panel-header .ahfb-sorter-item-expand:focus, .ahfb-sorter-item-panel-header .ahfb-sorter-item-remove:focus {box-shadow: none;outline: none;}
 .ahfb-sorter-item-panel-header .ahfb-sorter-item-expand svg, .ahfb-sorter-item-panel-header .ahfb-sorter-item-remove svg {color: #556068;width: 18px;height: 18px;}
 .ahfb-sorter-drop .ahfb-sorter-item {line-height: 28px;height: auto;background: white;position: relative;position: relative;border: 1px solid #d1d5db;white-space: nowrap;margin: 0 0 10px;padding: 0px;border-radius: 4px;}
@@ -260,7 +259,6 @@ li#customize-control-astra-settings-header-desktop-items, li#customize-control-a
 .ahfb-social-add-area .components-base-control, .ahfb-language-selector-add-area .components-base-control {flex-grow: 1;padding-right: 10px;}
 .ahfb-social-add-area .components-select-control {border-radius: 4px;}
 .ahfb-social-add-area .ahfb-sorter-add-item, .ahfb-language-selector-add-area .ahfb-sorter-add-item {height: 30px;line-height: normal;padding: 0 12px 2px;}
-.ahfb-sorter-row {margin-bottom: 16px;}
 .ahfb-sorter-item-panel-content .components-button.button-add-media {display: block;margin-bottom: 20px;height: auto;}
 .ahfb-sorter-item-panel-content .ahfb-radio-container-control .components-button.is-tertiary {padding: 12px;}
 .components-button.ahfb-sorter-item-expand.item-is-hidden:before {opacity: 1;}

@@ -262,7 +262,7 @@
 .slick-next {right: -25px;}
 [dir=rtl] .slick-next {right: auto;left: -25px;}
 .slick-dotted.slick-slider {margin-bottom: 30px;}
-.slick-dots {position: absolute;bottom: -25px;display: block;width: 100%;padding: 0;margin: 0;list-style: none;text-align: center;}
+.ekit-wid-con .swiper-pagination-custom, .slick-dots, .swiper-pagination-bullets.swiper-pagination-horizontal {position: absolute;bottom: -25px;display: block;width: 100%;padding: 0;margin: 0;list-style: none;text-align: center;}
 .slick-dots li {position: relative;display: inline-block;width: 20px;height: 20px;margin: 0 5px;padding: 0;cursor: pointer;}
 .slick-dots li button {font-size: 0;line-height: 0;display: block;width: 20px;height: 20px;padding: 5px;cursor: pointer;color: transparent;border: 0;outline: 0;background: 0 0;}
 .slick-dots li button:focus, .slick-dots li button:hover {outline: 0;}
@@ -2753,6 +2753,7 @@ body.admin-bar .ekit-promo-popup.mfp-ready .mfp-close {margin-top: 45px;}
 .ekit-wid-con .slick-dots {line-height: 1;}
 .ekit-wid-con .slick-dots li button {background-color: #ededed;padding: 0;}
 .ekit-wid-con .slick-dots li button::before {opacity: 0;}
+.ekit-wid-con .slick-dots li.slick-active {opacity: 1;background: 0 0;}
 .ekit-wid-con .slick-dots li.slick-active button {background-color: #62606b;}
 .ekit-wid-con .dot_dashed .slick-dots li, .ekit-wid-con .dot_dotted .slick-dots li {width: auto;height: auto;}
 .ekit-wid-con .dot_dashed .slick-dots li button, .ekit-wid-con .dot_dotted .slick-dots li button {width: 8px;height: 8px;border-radius: 50%;background-color: #000;opacity: 1;display: block;-webkit-transition: all .4s ease;transition: all .4s ease;border: 0;}
@@ -3236,6 +3237,7 @@ body.admin-bar .ekit-promo-popup.mfp-ready .mfp-close {margin-top: 45px;}
 .ekit-wid-con .elementskit-testimonial-slider .slick-dots li {margin: 0;width: auto;height: auto;}
 .ekit-wid-con .elementskit-testimonial-slider .slick-dots li button {padding: 0;margin: 0;}
 .ekit-wid-con .elementskit-testimonial-slider .slick-dots li button::before {display: none;}
+.ekit-wid-con .elementskit-testimonial-slider .slick-dots li.slick-active {opacity: 1;background: 0 0;}
 .ekit-wid-con .elementskit-testimonial-slider .swiper-container:not(.swiper-container-initialized) .swiper-slide {max-width: calc(100% / var(--ekit_testimonial_slidetoshow,1));margin-right: var(--ekit_testimonial_left_right_spacing,15px);margin-left: var(--ekit_testimonial_left_right_spacing,15px);}
 .ekit-wid-con .elementskit-testimonial_card .xs-overlay {opacity: 1;background-color: rgba(0,0,0,.5);}
 .ekit-wid-con .elementskit-commentor-bio {position: absolute;left: 0;width: 100%;}

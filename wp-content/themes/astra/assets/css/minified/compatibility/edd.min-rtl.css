@@ -9,7 +9,7 @@
 .columns-1 .ast-edd-archive-article {width: 100%;margin-left: 0;}
 .columns-2 .ast-edd-archive-article {width: 48.4%;width: calc(50% - 10px);}
 .columns-2 .ast-edd-archive-article:nth-child(2n) {margin-left: 0;clear: left;}
-.columns-2 .ast-edd-archive-article:nth-child(2n+1) {clear: right;}
+.columns-2 .ast-edd-archive-article:nth-child(odd) {clear: right;}
 .columns-3 .ast-edd-archive-article {width: 31.2%;width: calc(33.33% - 14px);}
 .columns-3 .ast-edd-archive-article:nth-child(3n) {margin-left: 0;clear: left;}
 .columns-3 .ast-edd-archive-article:nth-child(3n+1) {clear: right;}
@@ -41,7 +41,7 @@
 .edd_downloads_list.edd_download_columns_1 .edd_download {width: 100%;margin-left: 0;}
 .edd_downloads_list.edd_download_columns_2 .edd_download {width: 48.4%;width: calc(50% - 10px);}
 .edd_downloads_list.edd_download_columns_2 .edd_download:nth-child(2n) {margin-left: 0;clear: left;}
-.edd_downloads_list.edd_download_columns_2 .edd_download:nth-child(2n+1) {clear: right;}
+.edd_downloads_list.edd_download_columns_2 .edd_download:nth-child(odd) {clear: right;}
 .edd_downloads_list.edd_download_columns_3 .edd_download {width: 31.2%;width: calc(33.33% - 14px);}
 .edd_downloads_list.edd_download_columns_3 .edd_download:nth-child(3n) {margin-left: 0;clear: left;}
 .edd_downloads_list.edd_download_columns_3 .edd_download:nth-child(3n+1) {clear: right;}

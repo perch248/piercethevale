@@ -8,7 +8,7 @@
 .customize-control-ast-sortable .sortable div.invisible .dashicons.visibility:after {opacity: 1;position: absolute;content: "";width: 18px;height: 2px;top: 18px;left: 11px;background: #656565;border-radius: 5px;transform: rotate(-45deg);box-shadow: 0px 0px 0px 1px #fff;transition: opacity .2s ease;}
 .ast-sortable-item.invisible, .ast-sortable-item:hover {opacity: .8;}
 .ast-sortable-item.show:hover {opacity: 1;}
-.ast-sortable-item .dashicons-arrow-down-alt2, .ast-sortable-item .dashicons-admin-page, .ast-sortable-item .dashicons-remove {margin-right: -6px;}
+.ast-sortable-item .dashicons-arrow-down-alt2, .ast-sortable-item .dashicons-remove {margin-right: -6px;}
 .ast-sortable-item .dashicons-admin-page, .ast-sortable-item .dashicons-arrow-down-alt2, .ast-sortable-item .dashicons-remove {cursor: pointer;}
 .ast-sortable-subcontrols {display: none;padding: 12px 0;margin-left: -12px !important;border-top: 1px solid #d1d5db;margin-right: -3px !important;}
 .ast-sortable-subcontrols > * {padding-right: 9px;padding-bottom: 12px;}
@@ -33,10 +33,10 @@
 .ast-sortable-subfields-wrap .customize-control-ast-list-icons .rfipdropdown--open .rfipicons__ibox:hover>* {transform: scale(1.3) !important;}
 .ast-sortable-subfields-wrap .customize-control-ast-list-icons .rfipdropdown--open .rfipicons__ibox {height: 32px !important;}
 .ast-sortable-subfields-wrap .ast-color-btn-reset-wrap {top: 0;}
-.customize-control-ast-sortable .ast-sortable-subfields-wrap .customize-control-title {margin-bottom: 20px;font-size: 13px;margin-top: 3px;}
+.customize-control-ast-sortable .ast-sortable-subfields-wrap .customize-control-title {margin-bottom: 16px;font-size: 13px;margin-top: 3px;}
 .customize-control-ast-sortable .ast-sortable-subfields-wrap .ast-responsive-btns {top: 7px;}
 .ast-sortable-subfields-wrap .ast-fields-wrap {margin-left: -12px;padding-bottom: 10px;}
-.customize-control-content {width: 100%;}
+.customize-control-content {width: 100%;display: flex;flex-direction: column;}
 .ast-sortable-subfields-wrap .ast-fields-wrap {overflow: inherit;}
 .ast-sortable-subfields-wrap .customize-control {float: none;}
 .ast-sortable-item.invisible > .dashicons-admin-page, .ast-sortable-item.invisible > .ast-accordion, .ast-sortable-item.invisible > .dashicons-remove {display: none;}

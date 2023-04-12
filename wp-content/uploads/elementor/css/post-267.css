@@ -22,12 +22,13 @@
 .elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-items.elementor-inline-items {margin-right: calc(-18px / 2);margin-left: calc(-18px / 2);}
 body.rtl .elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {left: calc(-18px / 2);}
 body:not(.rtl) .elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {right: calc(-18px / 2);}
-.elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-icon i {color: var(--e-global-color-astglobalcolor0);}
-.elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-icon svg {fill: var(--e-global-color-astglobalcolor0);}
-.elementor-267 .elementor-element.elementor-element-17bbd1a {--e-icon-list-icon-size: 25px;}
-.elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-text {color: var(--e-global-color-astglobalcolor2);padding-left: 0px;}
-.elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-item:hover .elementor-icon-list-text {color: #e28413;}
+.elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-icon i {color: var(--e-global-color-astglobalcolor0);transition: color .3s;}
+.elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-icon svg {fill: var(--e-global-color-astglobalcolor0);transition: fill .3s;}
+.elementor-267 .elementor-element.elementor-element-17bbd1a {--e-icon-list-icon-size: 25px;--icon-vertical-offset: 0px;}
+.elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-icon {padding-right: 0px;}
 .elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-item > .elementor-icon-list-text, .elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-item > a {font-family: "Lato",Sans-serif;font-size: 25px;font-weight: 600;}
+.elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-text {color: var(--e-global-color-astglobalcolor2);transition: color .3s;}
+.elementor-267 .elementor-element.elementor-element-17bbd1a .elementor-icon-list-item:hover .elementor-icon-list-text {color: #e28413;}
 .elementor-267 .elementor-element.elementor-element-c26d6a1 > .elementor-element-populated {padding: 150px 0px 150px 0px;}
 .elementor-267 .elementor-element.elementor-element-c89ec5c {text-align: center;}
 .elementor-267 .elementor-element.elementor-element-c89ec5c img {border-radius: 500px 500px 500px 500px;}
